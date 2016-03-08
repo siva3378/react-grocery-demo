@@ -27,7 +27,7 @@ var GroceryListAddItem = React.createClass({
         return (
             <div className="grocery-addItem">
             	<form onSubmit={this.addItem}>
-            		<input value={this.state.item} onChange={this.handleItemName}/>
+            		<input value={this.state.item} onChange={this.handleItemName} type="text"/>
             		<button>Add Item</button>
             	</form>
             </div>
